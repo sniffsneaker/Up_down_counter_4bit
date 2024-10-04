@@ -18,7 +18,7 @@ Create a new Verilog file (counter.v).
 Now, write the Verilog code for the 4-bit Up/Down Counter.
 
 ### verilog
-
+```
 module counter (
     input clk,               // Clock signal
     input reset,             // Reset signal (active high)
@@ -35,15 +35,15 @@ always @(posedge clk or posedge reset) begin
     else                    // If up_down is low, decrement count
         count <= count - 1;
 end
-
 endmodule
+```
 ## 3. Create a Testbench
 You can create a testbench to simulate the counter's behavior.
 
 In Vivado, Add Sources > Add or create simulation sources.
 Create a new Verilog file called tb_counter.v.
 ### verilog
-
+```
 module tb_counter;
 
 // Declare testbench variables
@@ -80,7 +80,7 @@ initial begin
 end
 
 endmodule
-
+```
 ### 4. Simulation
 Run Simulation:
 
@@ -108,7 +108,7 @@ Finally, click Generate Bitstream to create the configuration file for programmi
 If you have an FPGA board (e.g., a Xilinx board), you can load the bitstream and see the counter working on hardware.
 
 Connect the FPGA to your computer and program it using the Hardware Manager in Vivado.
-
+#### summary :
 Create a new Vivado Project.
 Write the Verilog code for a 4-bit up/down counter.
 Create a testbench to simulate the design.
