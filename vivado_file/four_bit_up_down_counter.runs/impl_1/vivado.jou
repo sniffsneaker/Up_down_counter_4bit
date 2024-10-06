@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct  4 16:42:57 2024
+# Process ID: 16320
+# Current directory: E:/Vivado_projects/four_bit_up_down_counter/four_bit_up_down_counter.runs/impl_1
+# Command line: vivado.exe -log counter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source counter.tcl -notrace
+# Log file: E:/Vivado_projects/four_bit_up_down_counter/four_bit_up_down_counter.runs/impl_1/counter.vdi
+# Journal file: E:/Vivado_projects/four_bit_up_down_counter/four_bit_up_down_counter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source counter.tcl -notrace
